@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    color: aqua;
+}
+
+.commitinfo>p{
+    color: red;
+    font-size: 10px;
+}
+
+.fontsize{
+    font-size: 6px;
+}
+
+.whitecolor>p{
+    color: white;
+}
+
+/* .p1{
+    color: yellow;
+    font-size: 9px;
+} */
+
+.cursor{
+    width: 10px;
+    padding: 0 60px;
+}
+
+.mark{
+    background-color: white;
+}
+
+.textarea{
+    position: fixed;
+    overflow: hidden;
+}
+
+/* textarea > p{
+    color: aqua;
+    font-size: 5px;
+} */
+
+/* textarea{
+    background-color: black;
+} */
+
+/* .commit{
+    opacity: 1;
+}
+
+.show{
+    opacity: 0;
+} */
+
+/* hr{
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+} */
+
